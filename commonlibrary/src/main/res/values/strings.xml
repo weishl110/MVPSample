@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CommonLibrary</string>
+    <string name="hint_contact_phone">请输入您的联系电话</string>
+    <string name="confirm_change">确认修改</string>
+</resources>

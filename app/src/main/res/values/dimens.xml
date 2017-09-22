@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="value_1px">1px</dimen>
+    <dimen name="value_2px">2px</dimen>
+    <dimen name="value_3px">3px</dimen>
+    <dimen name="value_4px">4px</dimen>
+    <dimen name="value_6px">6px</dimen>
+    <dimen name="value_8px">8px</dimen>
+    <dimen name="value_10px">10px</dimen>
+    <dimen name="value_12px">12px</dimen>
+    <dimen name="value_14px">14px</dimen>
+    <dimen name="value_16px">16px</dimen>
+    <dimen name="value_18px">18px</dimen>
+    <dimen name="value_20px">20px</dimen>
+    <dimen name="value_22px">22px</dimen>
+    <dimen name="value_24px">24px</dimen>
+    <dimen name="value_26px">26px</dimen>
+    <dimen name="value_27px">27px</dimen>
+    <dimen name="value_28px">28px</dimen>
+    <dimen name="value_30px">30px</dimen>
+    <dimen name="value_32px">32px</dimen>
+    <dimen name="value_34px">34px</dimen>
+    <dimen name="value_36px">36px</dimen>
+    <dimen name="value_40px">40px</dimen>
+    <dimen name="value_48px">48px</dimen>
+    <dimen name="value_60px">60px</dimen>
+    <dimen name="value_64px">64px</dimen>
+    <dimen name="value_72px">72px</dimen>
+    <dimen name="value_84px">84px</dimen>
+    <dimen name="value_96px">96px</dimen>
+    <dimen name="value_98px">98px</dimen>
+    <dimen name="value_106px">106px</dimen>
+    <dimen name="value_110px">110px</dimen>
+    <dimen name="value_132px">132px</dimen>
+    <dimen name="value_144px">144px</dimen>
+    <dimen name="value_156px">156px</dimen>
+    <dimen name="value_192px">192px</dimen>
+    <dimen name="value_252px">252px</dimen>
+    <dimen name="value_300px">300px</dimen>
+    <dimen name="value_324px">324px</dimen>
+    <dimen name="value_380px">380px</dimen>
+    <dimen name="value_518px">518px</dimen>
+    <dimen name="value_672px">672px</dimen>
+    <dimen name="value_760px">600px</dimen>
+
+
+    <!--字体大小 sp值-->
+    <dimen name="value_10sp">10sp</dimen>
+    <dimen name="value_12sp">12sp</dimen>
+    <dimen name="value_14sp">14sp</dimen>
+    <dimen name="value_18sp">18sp</dimen>
+    <dimen name="value_16sp">16sp</dimen>
+    <dimen name="value_20sp">20sp</dimen>
+    <!-- dp值 -->
+    <dimen name="value_1dp">1dp</dimen>
+    <dimen name="value_8dp">8dp</dimen>
+    <dimen name="value_10dp">10dp</dimen>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="nomalPadding">
+        <item name="android:paddingLeft">@dimen/value_24px</item>
+        <item name="android:paddingRight">@dimen/value_24px</item>
+    </style>
+
+    <style name="style_dialog_tv">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/value_24px</item>
+        <item name="android:paddingTop">@dimen/value_24px</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/value_16sp</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- activity 变暗 dd-->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:textColor">#66000000</item>
+    </style>
+
+    <!-- 白色圆角背景 -->
+    <style name="DialogStyle_round">
+        <!-- 设置圆角白色背景 -->
+        <item name="android:windowBackground">@drawable/shape_round_whtie_bg</item>
+        <item name="android:background">@color/color_white</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--  -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <!--<item name="android:backgroundDimAmount">0.5</item>-->
+    </style>
+
+
+    <!-- dialog 样式  activity变暗 -->
+    <style name="dialog_background_dimEnabled" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- activity 变暗 dd-->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <!-- dialog透明背景 -->
+    <style name="DialogStyle_nomal">
+        <!-- 设置圆角白色背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--  -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="DialogStyle_bottom" parent="DialogStyle_nomal">
+        <item name="android:windowAnimationStyle">@style/Style_WindownAnim_bottom</item>
+    </style>
+
+    <!-- 在底部出的动画 -->
+    <style name="Style_WindownAnim_bottom">
+        <item name="android:windowExitAnimation">@anim/pop_find_out</item>
+        <item name="android:windowEnterAnimation">@anim/pop_find_in</item>
+    </style>
+</resources>

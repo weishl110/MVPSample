@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_round_whtie_bg2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/value_12dp"
+            android:layout_marginRight="@dimen/value_12dp"
+            android:layout_marginTop="@dimen/value_12dp"
+            android:orientation="vertical">
+
+            <!-- 图标更新版本号 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- 版本图标 -->
+                <ImageView
+                    android:id="@+id/dialog_iv_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"/>
+
+                <!-- 版本号 -->
+                <TextView
+                    android:id="@+id/dialog_tv_version_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/dialog_iv_icon"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/value_24px"
+                    android:layout_toRightOf="@id/dialog_iv_icon"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/value_16sp"
+                    android:visibility="visible"/>
+
+                <!-- 版本大小 -->
+                <TextView
+                    android:id="@+id/dialog_tv_version_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/dialog_tv_version_code"
+                    android:layout_below="@id/dialog_tv_version_code"
+                    android:layout_marginTop="@dimen/value_10px"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/value_14sp"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/dialog_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/value_24px"
+                android:gravity="left"
+                android:includeFontPadding="false"
+                android:lineSpacingMultiplier="0.9"
+                android:text="版本说明:"
+                android:textColor="@color/color_545454"
+                android:textSize="@dimen/value_16sp"/>
+
+            <!-- 版本说明 -->
+            <TextView
+                android:id="@+id/dialog_tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/value_10px"
+                android:gravity="left"
+                android:includeFontPadding="false"
+                android:lineSpacingMultiplier="0.9"
+                android:textColor="@color/color_999999"
+                android:textSize="14sp"
+                android:visibility="visible"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 按钮 -->
+    <!--<LinearLayout-->
+    <!--android:id="@id/ll_btn"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:paddingLeft="@dimen/value_20px"-->
+    <!--android:paddingRight="@dimen/value_20px"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/dialog_tv_left"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/shape_tv_bg_line"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="@color/color_ff5100"-->
+    <!--android:textSize="16sp"-->
+    <!--android:visibility="gone"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/dialog_tv_right"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/shape_tv_bg_leftline"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="@color/color_666666"-->
+    <!--android:textSize="16sp"-->
+    <!--android:visibility="gone"/>-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/value_1px"
+            android:background="@color/color_8a8a8a"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_tv_left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/value_20px"
+                android:textColor="@color/color_ff5100"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/dialog_textView_segment"
+                android:layout_width="@dimen/value_1px"
+                android:layout_height="match_parent"
+                android:background="@color/color_8a8a8a"/>
+
+            <TextView
+                android:id="@+id/dialog_tv_right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/value_20px"
+                android:textColor="@color/color_666666"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

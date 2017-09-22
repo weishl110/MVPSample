@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/value_16dp"
+    android:paddingBottom="@dimen/value_16dp"
+    android:paddingLeft="@dimen/value_14dp"
+    android:paddingRight="@dimen/value_14dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改电话"
+        android:textColor="@color/color_545454"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/dialog_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/value_12px"
+        android:background="@drawable/shape_round_whtie_bg"
+        android:hint="@string/hint_contact_phone"
+        android:inputType="phone"
+        android:paddingBottom="@dimen/value_30px"
+        android:paddingLeft="@dimen/value_20px"
+        android:paddingTop="@dimen/value_30px"
+        android:textColor="@color/color_black"
+        android:textColorHint="@color/color_cccccc"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/dialog_tv_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/value_24px"
+        android:background="@drawable/shape_round_orange_bg"
+        android:gravity="center"
+        android:padding="@dimen/value_10dp"
+        android:text="@string/confirm_change"
+        android:textColor="@color/color_ff5100"
+        android:textSize="16sp"/>
+</LinearLayout>

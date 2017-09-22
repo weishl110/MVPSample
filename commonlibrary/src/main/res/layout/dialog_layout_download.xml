@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent"
+              android:orientation="vertical"
+              android:padding="@dimen/value_10dp">
+
+    <TextView
+        android:id="@+id/dialog_tv_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载中..."
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"/>
+    <!-- 下载进度条 -->
+    <com.wei.commonlibrary.view.LineProgressView
+        android:id="@+id/dialog_progress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="@dimen/value_10dp"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/nomalPadding"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_white"
+              android:orientation="vertical">
+
+    <!-- 相机拍照 -->
+    <TextView
+        android:id="@+id/dialog_tv_camera"
+        style="@style/style_dialog_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/value_36px"
+        android:background="@drawable/shape_round_red_bg"
+        android:text="相机拍照"/>
+
+    <TextView
+        android:id="@+id/dialog_tv_photo"
+        style="@style/style_dialog_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/value_12px"
+        android:background="@drawable/shape_round_yellow_bg"
+        android:text="选择照片"
+        android:textColor="@color/color_443301"/>
+
+    <TextView
+        android:id="@+id/dialog_tv_cancel"
+        style="@style/style_dialog_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/value_36px"
+        android:layout_marginTop="@dimen/value_36px"
+        android:background="@drawable/shape_round_gray_bg"
+        android:text="取消"
+        android:textColor="@color/color_white"/>
+</LinearLayout>

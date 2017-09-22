@@ -1,0 +1,40 @@
+ext {
+    //每次修改完记得sync gradle下，否则无法同步
+
+    android = [compileSdkVersion    : 25,
+               buildToolsVersion    : "25.0.1",
+               minSdkVersion        : 14,
+               targetSdkVersion     : 25,
+               versionCode          : 1,
+               versionName          : "1.0.0",
+               androidSupportVersion: "25.0.3",
+               retrofitVersion      : "2.2.0",
+               converterGson        : "2.0.1",
+               converterScalars     : "2.2.0",
+               rxjavaVersion        : "1.2.6",
+               rxAndroidVersion     : "1.2.1"
+    ]
+
+    dependencies = [
+            "appcompat-v7"     : "com.android.support:appcompat-v7:${android["androidSupportVersion"]}",
+            "design"           : "com.android.support:design:${android["androidSupportVersion"]}",
+            "support-v4"       : "com.android.support:support-v4:${android["androidSupportVersion"]}",
+            "support-v7"       : "com.android.support:support-v7:${android["androidSupportVersion"]}",
+            "recyclerview-v7"  : "com.android.recyclerview-v7:${android["androidSupportVersion"]}",
+            "retrofit"         : "com.squareup.retrofit2:retrofit:${android["retrofitVersion"]}",
+            "converter-gson"   : "com.squareup.retrofit2:converter-gson:${android["converterGson"]}",
+            "adapter-rxjava"   : "com.squareup.retrofit2:adapter-rxjava:${android["retrofitVersion"]}",
+            "converter-scalars": "com.squareup.retrofit2:converter-scalars:${android["converterScalars"]}",
+            "okhttp3"          : "com.squareup.okhttp3:okhttp:3.6.0",
+            "rxandroid"        : "io.reactivex:rxandroid:${android["rxAndroidVersion"]}",
+            "rxjava"           : "io.reactivex:rxjava:${android["rxjavaVersion"]}",
+            "gson"             : "com.google.code.gson:gson:2.7",
+            "autolayout"       : "com.zhy:autolayout:1.4.5",
+            "butterknife"      : "com.jakewharton:butterknife:8.5.1",
+            "butterknife-apt"  : "com.jakewharton:butterknife-compiler:8.5.1",
+            "glide"            : "com.github.bumptech.glide:glide:3.7.0",
+            "rxpermissions"    : "com.tbruyelle.rxpermissions:rxpermissions:0.9.1@aar",
+            "processes"        : "com.jaredrummler:android-processes:1.0.9",
+
+    ]
+}
